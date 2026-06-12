@@ -1,4 +1,4 @@
-# Deepseek 查询平台 - 华为手表版
+# Deepseek 查询平台 - base华为watch3
 
 <p align="center">
   <img src="https://img.shields.io/badge/平台-HarmonyOS%20Wearable-blue" alt="平台">
@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/协议-MIT-green" alt="协议">
 </p>
 
-一款运行在华为 Watch 3 上的 DeepSeek 余额查询应用，采用 Apple 风格 UI 设计，抬腕即可查看账户余额。
+一款运行在华为 Watch 3 上的 DeepSeek 余额查询应用，抬腕即可查看账户余额。
 
 ## 功能特性
 
