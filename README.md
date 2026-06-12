@@ -62,7 +62,27 @@ entry/src/main/js/MainAbility/pages/index/index.js
 'Authorization': 'Bearer sk-xxxxxxxxxxxxxxxxxxxxxxxx'
 ```
 
-### 第三步：编译并部署到手表
+### 第三步：申请签名（必要）
+
+华为 Watch 3 安装应用需要签名，否则无法部署到手表。有两种方式：
+
+**方式一：DevEco Studio 自动签名（推荐）**
+
+1. 用 DevEco Studio 打开项目
+2. 菜单栏 → **File → Project Structure → Signing Configs**
+3. 勾选 **Automatically generate signature**
+4. 点击 **OK**，IDE 会自动为你生成调试签名
+
+**方式二：华为云开发者网站申请**
+
+1. 登录 [华为开发者联盟](https://developer.huawei.com/)
+2. 进入 **管理中心 → 应用服务 → 应用分发**
+3. 创建应用并申请签名证书
+4. 下载签名文件，配置到项目的 `build-profile.json5` 中
+
+> **注意：** 本仓库的 `build-profile.json5` 已被 `.gitignore` 忽略，不会泄露签名信息。请勿将签名文件提交到公开仓库。
+
+### 第四步：编译并部署到手表
 
 #### 方式一：使用 DevEco Studio（推荐）
 
@@ -89,7 +109,7 @@ entry/build/default/outputs/default/entry-default-signed.hap
 hdc install entry/build/default/outputs/default/entry-default-signed.hap
 ```
 
-### 第四步：使用应用
+### 第五步：使用应用
 
 1. 在手表应用列表中找到并打开「Deepseek 查询平台」
 2. 应用启动后自动查询并显示余额
