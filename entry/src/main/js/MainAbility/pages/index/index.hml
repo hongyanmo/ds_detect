@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="title-area">
+        <text class="title-line1">Deepseek</text>
+        <text class="title-line2">查询平台</text>
+    </div>
+    <div class="main-row">
+        <div class="logo-area">
+            <div class="whale">
+                <div class="whale-body"></div>
+                <div class="whale-tail"></div>
+                <div class="whale-eye"></div>
+                <div class="whale-belly"></div>
+            </div>
+        </div>
+        <div class="card">
+            <text class="label">BALANCE</text>
+            <div class="amount-row">
+                <text class="amount-integer">{{ balanceInt }}</text>
+                <text class="amount-decimal">{{ balanceDec }}</text>
+            </div>
+            <text class="currency">{{ currency }}</text>
+            <div class="divider"></div>
+            <div class="info-row">
+                <div class="dot {{ statusClass }}"></div>
+                <text class="status">{{ statusText }}</text>
+            </div>
+            <text class="update">{{ lastUpdate }}</text>
+            <div class="btn" onclick="refresh">
+                <text class="btn-text">{{ btnText }}</text>
+            </div>
+        </div>
+    </div>
+</div>
