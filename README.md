@@ -59,8 +59,8 @@
 ### 第一步：克隆仓库
 
 ```bash
-git clone https://github.com/你的用户名/deepseek-balance-watch.git
-cd deepseek-balance-watch
+git clone https://github.com/hongyanmo/ds_detect.git
+cd ds_detect
 ```
 
 ### 第二步：配置 API Key
