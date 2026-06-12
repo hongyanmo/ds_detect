@@ -13,3 +13,4 @@
 *.pem
 *.cer
 build-profile.json5
+.DS_Store
