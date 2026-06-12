@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/平台-HarmonyOS%20Wearable-blue" alt="平台">
   <img src="https://img.shields.io/badge/语言-JavaScript%20(FA%20模式)-yellow" alt="语言">
-  <img src="https://img.shields.io/badge/UI-Apple%20风格-purple" alt="UI风格">
+  <img src="https://img.shields.io/badge/UI-%E6%B7%B1%E8%89%B2%20UI-purple" alt="UI风格">
   <img src="https://img.shields.io/badge/协议-MIT-green" alt="协议">
 </p>
 
@@ -129,7 +129,7 @@ hdc install entry/build/default/outputs/default/entry-default-signed.hap
 │       └── pages/index/
 │           ├── index.js               # 核心逻辑（API 请求、数据解析）
 │           ├── index.hml              # 页面模板（左右布局 + CSS 鲸鱼）
-│           └── index.css              # Apple 风格样式
+│           └── index.css              # 深色 UI 样式
 ├── build-profile.json5                # 构建与签名配置
 ├── package.json                       # 项目依赖
 └── LICENSE                            # MIT 开源协议
@@ -245,7 +245,7 @@ A: 修改 `index.js` 中的 Key 后重新编译安装即可。
 ```css
 /* 修改余额颜色 */
 .amount-integer {
-    color: #30D158;  /* Apple 系统绿 */
+    color: #30D158;  /* 系统绿 */
 }
 
 /* 修改背景渐变 */
