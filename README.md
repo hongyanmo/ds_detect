@@ -20,7 +20,9 @@
 
 ## 截图
 
-> _TODO: 添加手表实机截图_
+<p align="center">
+  <img src="screenshots/watch-demo.png" alt="华为手表实机演示" width="300">
+</p>
 
 ## 界面布局
 
